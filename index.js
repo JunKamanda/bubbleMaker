@@ -101,7 +101,7 @@ const startGame = () => {
   replayBtn.style.display = "none";
 
   // Lance un intervalle pour créer une bulle toutes les 3 secondes
-  bubbleInterval = setInterval(bubbleMaker, 3000);
+  bubbleInterval = setInterval(bubbleMaker, 300);
 
   // Lance un intervalle pour diminuer le temps chaque seconde
   countdownInterval = setInterval(() => {
